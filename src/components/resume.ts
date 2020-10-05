@@ -3,7 +3,7 @@ export interface PersonalDetails {
   address: string;
   telephone: string;
   email: string;
-  links: Array<{ href: string; text: string }>;
+  links?: Array<{ href: string; text: string }>;
 }
 export interface Education {
   name: string;
